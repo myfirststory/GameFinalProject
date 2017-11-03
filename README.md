@@ -1,6 +1,5 @@
-# GameFinalProject ทดสอบ
-This is testting project for game create.
-Created date this readme 31/10/2017
-Created this by phaser form first. again
-try again
-try again 2
+# GameFinalProject กลุ่ม นาย44 section 1
+นายธนู แสไธสง 583020340-8
+นายสินธุ จันสุตะ 583020365-2
+นายเวทิต บัวหอม 583020358-9
+นายสิทธิวัฒน์ พัชรพรรณพงศ์ 583020363-6
