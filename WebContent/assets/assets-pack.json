@@ -1,0 +1,518 @@
+{
+  "level": [
+    {
+      "type": "atlas",
+      "key": "cat",
+      "textureURL": "assets/atlas/cat.png",
+      "atlasURL": "assets/atlas/cat.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "dog",
+      "textureURL": "assets/atlas/dog.png",
+      "atlasURL": "assets/atlas/dog.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "knight",
+      "textureURL": "assets/atlas/knight.png",
+      "atlasURL": "assets/atlas/knight.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "spritesheet",
+      "key": "tileset",
+      "url": "assets/tilemap/tileset.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "citymap",
+      "url": "assets/tilemap/citymap.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "spritesheet",
+      "key": "bullet",
+      "url": "assets/images/bullet.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "chart",
+      "textureURL": "assets/atlas/chart.png",
+      "atlasURL": "assets/atlas/chart.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "enemy1",
+      "textureURL": "assets/atlas/enemy1.png",
+      "atlasURL": "assets/atlas/enemy1.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "enemy2",
+      "textureURL": "assets/atlas/enemy2.png",
+      "atlasURL": "assets/atlas/enemy2.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "spritesheet",
+      "key": "hp",
+      "url": "assets/images/hp.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "wasted",
+      "url": "assets/images/wasted.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "explos",
+      "url": "assets/images/explos.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "stage1",
+      "urls": ["assets/Music/stage1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "fire",
+      "urls": ["assets/Music/fire.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "explod",
+      "urls": ["assets/Music/explod.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "dead",
+      "urls": ["assets/Music/dead.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "stage2",
+      "urls": ["assets/Music/stage2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "stage3",
+      "urls": ["assets/Music/stage3.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "stage2",
+      "url": "assets/tilemap/stage2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "govrntown",
+      "url": "assets/tilemap/govrntown.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "atlas",
+      "key": "boss",
+      "textureURL": "assets/atlas/boss.png",
+      "atlasURL": "assets/atlas/boss.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "spritesheet",
+      "key": "thecore",
+      "url": "assets/tilemap/thecore.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "thecore",
+      "url": "assets/tilemap/thecore.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "spritesheet",
+      "key": "shield",
+      "url": "assets/images/shield.png",
+      "frameWidth": 190,
+      "frameHeight": 190,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "portal",
+      "url": "assets/images/arrow.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "cut1",
+      "url": "assets/images/cut1.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "cut2",
+      "url": "assets/images/cut2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "cut3",
+      "url": "assets/images/cut3.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "menu",
+      "url": "assets/images/menu.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "howtoplay2",
+      "url": "assets/images/howtoplay2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "start2",
+      "url": "assets/images/start2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "exit2",
+      "url": "assets/images/exit2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture1",
+      "url": "assets/cutscene/1.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture2",
+      "url": "assets/cutscene/2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture3",
+      "url": "assets/cutscene/3.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture4",
+      "url": "assets/cutscene/4.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture5",
+      "url": "assets/cutscene/5.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture6",
+      "url": "assets/cutscene/6.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture7",
+      "url": "assets/cutscene/7.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture8",
+      "url": "assets/cutscene/8.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture9",
+      "url": "assets/cutscene/9.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture10",
+      "url": "assets/cutscene/10.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture11",
+      "url": "assets/cutscene/11.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture12",
+      "url": "assets/cutscene/12.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture13",
+      "url": "assets/cutscene/13.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "picture14",
+      "url": "assets/cutscene/14.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "backbutton",
+      "url": "assets/images/backbutton.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "next",
+      "url": "assets/images/next.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "Peaks",
+      "urls": ["assets/Music/Peaks-And-Valleys-Holon.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "howto",
+      "url": "assets/images/howto.jpg",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ending",
+      "url": "assets/images/ending.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "right",
+      "url": "assets/images/right.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "gun",
+      "url": "assets/images/gun.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "down",
+      "url": "assets/images/down.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "left",
+      "url": "assets/images/left.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "up",
+      "url": "assets/images/up.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    }
+  ],
+  "start": [{
+    "type": "image",
+    "key": "tap-to-start",
+    "url": "assets/images/tap-to-start.png",
+    "overwrite": false
+  }],
+  "preload": [{
+    "type": "image",
+    "key": "loading",
+    "url": "assets/images/loading.png",
+    "overwrite": false
+  }],
+  "meta": {
+    "generated": "1513782443600",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

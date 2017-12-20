@@ -1,0 +1,27 @@
+{
+  "frames": {"idle (1)": {
+    "trimmed": true,
+    "rotated": false,
+    "frame": {
+      "x": 2,
+      "y": 2,
+      "w": 64,
+      "h": 64
+    },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "sourceSize": {
+      "w": 64,
+      "h": 64
+    }
+  }},
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "enemy2.png"
+  }
+}

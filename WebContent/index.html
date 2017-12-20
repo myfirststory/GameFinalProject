@@ -1,57 +1,47 @@
-<!DOCTYPE HTML>
+	<!DOCTYPE HTML>
 <html>
 <head>
+
 <meta charset="UTF-8" />
 <meta name=viewport content="width=device-width, initial-scale=1">
 
-<title>HTML5 - Canvas</title>
+<title>Phaser Editor - Basic</title>
+
+<script src="lib/phaser.js"></script>
+<script src="js/Main.js"></script>
+<script src="js/Boot.js"></script>
+<script src="js/Menu.js"></script>
+<script src="js/Preload.js"></script>
+<script src="js/Level.js"></script>
+<script src="js/Level2.js"></script>
+<script src="js/Level3.js"></script>
+<script src="js/Howto.js"></script>
+<script src="js/Cutscene.js"></script>
+<script src="js/C1.js"></script>
+<script src="js/C2.js"></script>
+<script src="js/C3.js"></script>
+<script src="js/C4.js"></script>
+<script src="js/C5.js"></script>
+<script src="js/C6.js"></script>
+<script src="js/C7.js"></script>
+<script src="js/C8.js"></script>
+<script src="js/C9.js"></script>
+<script src="js/C10.js"></script>
+<script src="js/C11.js"></script>
+<script src="js/C12.js"></script>
+<script src="js/C13.js"></script>
+<script src="js/C14.js"></script>
+
+
 <style>
 body {
-	background: white;
+	background: black;
 	margin: 0;
 	padding: 0;
 }
 </style>
+
 </head>
 <body>
- <h1>HTML5 Basic Canvas 2D</h1>
- <br>
- <img src="assets/adam.png" height='100'>
- <br> 
- <canvas id="canvas1" width="400" height="400" style='border:1px solid black'></canvas>
- <script>
-   // สร้าง canvas context แบบ 2D
-   var ctx = canvas1.getContext("2d");
-   
-   // สร้าง image สำหรับ load รูปภาพ
-   var img = new Image();
-   img.ready = false;   
-   // กำหนดที่อยู่ของภาพ
-   img.src = "assets/adam.png"; 
-   img.onload = function(){    
-     // ฟังก์ชันที่จะทำงานเมื่อ load ภาพสำเร็จ
-	 // ในตัวอย่างนี้ไฟล์ adam จะมี 8 เฟรม ดังนั้นจึงต้องหารด้วย 8
-   	  img.w   = img.width/8;
-      img.h    =  img.height;
-	  img.ready=true;
-	  img.index = 0;     // เลขที่ frame ที่จะแสดง
-   }   
-   
-   // กำหนดให้ เรียกใช้ฟังก์ชัน drawFrame ทุกๆ  100 millisecond 
-   // นั่นคือใน 1 วินาที  drawFrame จะถูกเรียกให้ทำงาน 10 รอบ
-   window.setInterval(drawFrame,100);   
-   function drawFrame(){
-     // ลบพื้นที่ 
-   	 ctx.clearRect(0,0,400,400)
-	 // ถ้า ภาพ load สำเร็จแล้ว
-	 if(img.ready){
-	     // วาดภาพ 
-         ctx.drawImage(img,img.w*img.index,0,img.w,img.h, 100,100,img.w,img.h);		 
-	     img.index++;
-	     if(img.index>7) img.index=0;	 
-	 }
-   }     
- </script>
-
 </body>
 </html>
